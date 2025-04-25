@@ -1,0 +1,21 @@
+{
+  "name": "code-obfuscation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && mkdir dist && node ./build.js",
+    "start": "node dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1",
+    "uglify-js": "^3.19.3"
+  }
+}
